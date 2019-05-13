@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context="com.example.json.mytouzhisystem.KnowledgeActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#8DEEEE"
+        android:text="总数据分析"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/tvAnalysisActivityChuXu"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="投资项目为：" />
+    <TextView
+        android:id="@+id/tvAnalysisActivityGuPiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="投资数目"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:id="@+id/tvAnalysisActivityJiJin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="投资时间" />
+    <TextView
+        android:id="@+id/tvAnalysisActivityZaiQuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="投资描述"
+        />
+    <TextView
+        android:id="@+id/tvAnalysisActivityWaiHui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="投资描述"
+        />
+    <TextView
+        android:id="@+id/tvAnalysisActivityQiHuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="投资描述"
+        />
+    <TextView
+        android:id="@+id/tvAnalysisActivityChangPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="投资描述"
+        />
+    <TextView
+        android:id="@+id/tvAnalysisActivityDiChan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="投资描述"
+        />
+    <TextView
+        android:id="@+id/tvAnalysisActivityBaoXian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="投资描述"
+        />
+    <com.idtk.smallchart.chart.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

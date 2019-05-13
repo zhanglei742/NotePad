@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RotateLoading">
+        <attr name="loading_width" format="dimension" />
+        <attr name="loading_color" format="color" />
+        <attr name="shadow_position" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="NoteEditText">
+        <attr name="lineColor" format="color|reference"/>
+        <attr name="strokeWidth" format="dimension|reference"/>
+        <attr name="padding" format="dimension|reference"/>
+        <attr name="background" format="reference"/>
+    </declare-styleable>
+</resources>

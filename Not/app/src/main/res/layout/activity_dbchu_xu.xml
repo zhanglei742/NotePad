@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:text="笔记查询"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:id="@+id/llMainActivitySend"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/edtMainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="76dp"
+                android:textSize="14sp"
+                android:paddingTop="14dp"
+                android:paddingBottom="10dp"
+                android:hint="请输入笔记的标题进行查询"
+                android:textColor="#8f000000" />
+            <TextView
+                android:id="@+id/tvMainActivityChaXun"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:text="查询"
+                android:background="@color/comment_activity_send_text_color"
+                android:typeface="monospace"
+                android:layout_alignParentRight="true"
+                android:paddingRight="14dp"
+                android:paddingLeft="14dp"
+                android:paddingTop="14dp"
+                android:paddingBottom="10dp"
+                android:textSize="14sp"
+                android:clickable="true"
+                android:textColor="#1f000000" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+   <ListView
+       android:id="@+id/lvDBChuXuActivity"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" />
+
+</LinearLayout>

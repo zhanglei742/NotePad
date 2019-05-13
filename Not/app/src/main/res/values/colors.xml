@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3fb55c</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="attention_others_activity_log_in_text_color">#FF4081</color>
+    <color name="comment_activity_send_text_color">#1f000000</color>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/tvNotXiangQingActivityTitle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:text="记录详情"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <!-- 标题 -->
+    <EditText
+        android:id="@+id/edtNotXiangQingTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="标题"
+        android:layout_marginTop="80dp"
+        android:textColor="#0000ff"/>
+    <!-- 闹钟时间 -->
+    <EditText
+        android:id="@+id/edtNotXiangQingTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNotXiangQingTitle"
+        android:editable="false"
+        android:hint="时间"
+        android:textColor="#0000ff" />
+    <!-- 备忘录内容 -->
+    <view
+        android:id="@+id/edtNotXiangQingCount"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/edtNotXiangQingTime"
+        android:layout_above="@+id/relativeLayout1"
+        android:layout_marginTop="10dp"
+        class="com.example.json.mytouzhisystem.view.NoteEditText"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:scrollbars="vertical"
+        android:hint="笔记内容"
+        android:textColor="#0000ff" />
+    <!-- 底部按钮 -->
+    <RelativeLayout
+        android:id="@+id/rlNotXiangQingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+        <!-- 保存按钮 -->
+        <Button
+            android:id="@+id/btnNotXiangQingActivityUpdata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickView"
+            android:text="确认修改"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btnNotXiangQingActivityDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btnNotXiangQingActivityUpdata"
+            android:onClick="clickView"
+            android:text="确认删除"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light" />
+        <!-- 取消按钮 -->
+        <Button
+            android:id="@+id/btnNotXiangQingActivityCacel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btnNotXiangQingActivityDelete"
+            android:onClick="clickView"
+            android:text="取  消"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light" />
+    </RelativeLayout>
+</RelativeLayout>

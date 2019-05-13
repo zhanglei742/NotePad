@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#8DEEEE"
+        android:text="笔记分类4"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnDBZhaiQuanActivityAdd"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="#ffff00"
+            android:background="@drawable/login_btn_register_false"
+            android:layout_height="wrap_content"
+            android:text="添加笔记分类4" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lvDBZhaiQuanActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
