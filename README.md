@@ -11,30 +11,30 @@
 ## 功能展示
 打开APP，进入主菜单界面。</br>
 ![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/%E4%B8%BB%E7%95%8C%E9%9D%A2.png)
-点击“添加笔记”按钮，进入笔记编辑界面。</br></br>
+</br>点击“添加笔记”按钮，进入笔记编辑界面。</br></br>
 ![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/%E6%B7%BB%E5%8A%A0%E7%AC%94%E8%AE%B0.png)
 
-点击“保存”按钮，将笔记保存至本地数据库。</br>
-在主菜单界面点击“查询笔记”按钮，进入笔记列表。<font color=#FF0000>注:此处未输入查询内容时，默认为显示所有笔记。</font></br>
+</br>点击“保存”按钮，将笔记保存至本地数据库。</br>
+</br>在主菜单界面点击“查询笔记”按钮，进入笔记列表。<font color=#FF0000>注:此处未输入查询内容时，默认为显示所有笔记。</font></br>
 ![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/%E7%AC%94%E8%AE%B0%E5%88%97%E8%A1%A8.png)
-在文本框中输入要查询的标题，点击“查询”按钮，则在列表中显示相应标题的笔记。</br>
+</br>在文本框中输入要查询的标题，点击“查询”按钮，则在列表中显示相应标题的笔记。</br>
 ![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/%E7%AC%94%E8%AE%B0%E6%A0%87%E9%A2%98%E6%9F%A5%E8%AF%A2.png)
-此处支持模糊查询。</br>
+</br>此处支持模糊查询。</br>
 ![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/%E6%A0%87%E9%A2%98%E6%A8%A1%E7%B3%8A%E6%9F%A5%E8%AF%A2.png)
-输入不存在的标题时，无内容显示，并出现提示。</br>
+</br>输入不存在的标题时，无内容显示，并出现提示。</br>
 ![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/%E6%9C%AA%E5%AD%98%E5%9C%A8%E6%A0%87%E9%A2%98%E6%9F%A5%E8%AF%A2.png)
-点击列表中的笔记，进入笔记修改界面。</br>
+</br>点击列表中的笔记，进入笔记修改界面。</br>
 ![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/%E7%AC%94%E8%AE%B0%E4%BF%AE%E6%94%B9.png)
-点击“保存修改”按钮，则将修改内容保存至数据库。</br>
-在主界面中，点击“更改皮肤”按钮，则弹出选择框。</br>
+</br>点击“保存修改”按钮，则将修改内容保存至数据库。</br>
+</br>在主界面中，点击“更改皮肤”按钮，则弹出选择框。</br>
 ![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/%E6%9B%B4%E6%8D%A2%E8%83%8C%E6%99%AF1.jpg)
-点击“图库”按钮，进入手机本地图片库。</br>
-选择一张图片，进行下一步操作。</br>
+</br>点击“图库”按钮，进入手机本地图片库。</br>
+</br>选择一张图片，进行下一步操作。</br>
 ![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/%E6%9B%B4%E6%8D%A2%E8%83%8C%E6%99%AF3.jpg)
-裁剪完成，成功显示于主菜单背景。</br>
+</br>裁剪完成，成功显示于主菜单背景。</br>
 ![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/%E6%9B%B4%E6%8D%A2%E8%83%8C%E6%99%AF4.jpg)
-“拍照”添加背景的功能由于比较丑的关系，在此处就不多加赘述，操作和“图库”添加背景差不多。</br>
-在添加笔记的界面中，同样有“更换皮肤”的功能，操作同上。此处仅显示操作完之后的结果。</br>
+</br>“拍照”添加背景的功能由于比较丑的关系，在此处就不多加赘述，操作和“图库”添加背景差不多。</br>
+</br>在添加笔记的界面中，同样有“更换皮肤”的功能，操作同上。此处仅显示操作完之后的结果。</br>
 ![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/%E6%9B%B4%E6%8D%A2%E8%83%8C%E6%99%AF5.jpg)
 ## 代码详解
 ### 时间戳功能
