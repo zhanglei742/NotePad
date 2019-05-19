@@ -10,7 +10,7 @@
 （2）界面优化</br>
 ## 功能展示
 打开APP，进入主菜单界面。
-![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/主界面.jpg)
+![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/%E4%B8%BB%E7%95%8C%E9%9D%A2.png)
 点击“添加笔记”按钮，进入笔记编辑界面。
 ![images](https://github.com/zhanglei742/NotePad/blob/master/Not/ScreenShots/添加笔记.jpg)
 点击“保存”按钮，将笔记保存至本地数据库。</br>
